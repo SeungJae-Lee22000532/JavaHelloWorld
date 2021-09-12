@@ -9,7 +9,9 @@ public class Main {
 		Scanner s = new Scanner(System.in);
 		System.out.print("\n이름 입력 : ");
 		String name = s.next();
+		System.out.print("나이 입력 : ");
+		int age = s.nextInt();
 		
-		System.out.println("[" + name + "]님 환영합니다~");
+		System.out.println("[" + name + ", " + age + "]님 환영합니다~");
 	}
 }
